@@ -1,11 +1,11 @@
 import React from 'react';
-import './Sidebar.css'
+import './DrawerToggleButton.css'
 
-const SideBar = props => (
+const drawerToggleButton = props => (
     <button className= "toggle-button">
         <div className="toggle-button_line"/>
         <div className="toggle-button_line"/>
         <div className="toggle-button_line"/>
     </button>
 );
-export default SideBar;
+export default drawerToggleButton;

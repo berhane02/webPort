@@ -7,8 +7,9 @@
     background:transparent;
     border:none;
     cursor: pointer;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
+    margin-top: 28px;
 }
 
 .toggle-button:focus {
