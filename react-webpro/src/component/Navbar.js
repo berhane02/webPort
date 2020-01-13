@@ -8,7 +8,7 @@ const Navbar = props =>(
         <nav className="navbar_navigation">
             <div><SideBar /></div>
             <div className="navbar_logo"><a href="/"> THE LOGO</a></div>
-            <div className="spacer"/>
+            
             <div className= "navbar_navigation-item">
                 <ul>
                     <li> <a href="/"> 0.1 About </a> </li>
