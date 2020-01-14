@@ -4,17 +4,17 @@ import './Navbar.css';
 
 
 const Navbar = props =>(
-    <header className="navbar">
-        <nav className="navbar_navigation">
-            <div>
-                <DrawerToggleButton />>.
+    <header className="toolbar">
+        <nav className="toolbar_navigation">
+            <div className="toolbar_toggle-button">
+                <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
-            <div className="navbar_logo"><a href="/"> THE LOGO</a></div>
-            
-            <div className= "navbar_navigation-item">
+            <div className="toolbar_logo"><a href="/"> THE LOGO</a></div>
+            <div className="spacer"/>
+            <div className= "toolbar_navigation-items">
                 <ul>
                     <li> <a href="/"> 0.1 About </a> </li>
-                    <li> <a href="/"> 0.2 Exprince </a> </li>
+                    <li> <a href="/"> 0.2 Exprince</a> </li>
                     <li> <a href="/"> 0.3 Work </a> </li>
                     <li> <a href="/"> 0.4 Contanct </a> </li>
                 </ul>

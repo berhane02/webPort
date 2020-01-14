@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 //import { BrowserRouter, Route } from "react-router-dom";
-import './App.css';
 //import 'bootstrap/dist/css/bootstrap.min.css';
-import Menu from './component/Menu';
+import Navbar from './Navbar';
+import SideDrawer from './SideBar/SideDrawer';
+import Backdrop from './Backdrop/Backdrop';
 
 
-
-class App extends Component {
-  /*state = {
+class Menu extends Component {
+  state = {
     sideDrawerOpen: false,
   }
 
@@ -19,16 +19,15 @@ class App extends Component {
 
   backdropClickHandler = () => {
     this.setState({ sideDrawerOpen: false })
-  }*/
+  }
 
   render() {
-    /*let backdrop
+    let backdrop
    
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />
-    }*/
+    }
     return (
-      /*
       <div style={{ height: '100%' }}>
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen}/>
@@ -36,15 +35,9 @@ class App extends Component {
         <main style={{ marginTop: '64px' }}>
           <p>This is the page content!</p>
         </main>
-      </div>*/
-      
-        <div className= "app">
-           < Menu />
-        </div>
-         
-        
+      </div>
     )
   }
 }
 
-export default App;
+export default Menu;
