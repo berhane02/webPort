@@ -8,6 +8,13 @@
 
 }
 
+.toolbar.toolbar_navigation imf {
+    margin-top: 0;
+    margin-left: 0;
+    width: 50;
+    height: 50;
+}
+
 .toolbar_navigation {
     display: flex;
     height: 100%;
