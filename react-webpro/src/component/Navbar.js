@@ -1,6 +1,7 @@
 
 import React from "react"
 import DrawerToggleButton from '../component/SideBar/DrawerToggleButton';
+import { NavLink } from "react-router-dom";
 import './Navbar.css';
 
 
@@ -14,7 +15,7 @@ const Navbar = props =>(
             <div className="spacer"/>
             <div className= "toolbar_navigation-items">
                 <ul>
-                    <li> <a href="/"> 0.1 About </a> </li>
+                    <li> <NavLink to="/">0.1 About </NavLink></li>
                     <li> <a href="/"> 0.2 Exprince</a> </li>
                     <li> <a href="/"> 0.3 Work </a> </li>
                     <li> <a href="/"> 0.4 Contanct </a> </li>
