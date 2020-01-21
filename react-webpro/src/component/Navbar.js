@@ -16,9 +16,9 @@ const Navbar = props =>(
             <div className= "toolbar_navigation-items">
                 <ul>
                     <li> <NavLink to="/">0.1 About </NavLink></li>
-                    <li> <a href="/"> 0.2 Exprince</a> </li>
-                    <li> <a href="/"> 0.3 Work </a> </li>
-                    <li> <a href="/"> 0.4 Contanct </a> </li>
+                    <li> <NavLink to="/Exprince">0.2 Exprince</NavLink> </li>
+                    <li> <NavLink to="/Work"> 0.3 Work </NavLink> </li>
+                    <li> <NavLink to="/Contact"> 0.4 Contanct </NavLink></li>
                 </ul>
             </div>
         </nav>
