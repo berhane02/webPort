@@ -1,0 +1,51 @@
+.social {
+    position: fixed;
+    top: 40%;
+}
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    transform: translateX(-100px);
+
+}
+.social ul li {
+    display: block;
+    margin: 5px;
+    background-color: rgba (0,0,0,0.5);
+    width: 180px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 0 30px 30px 0;
+    transition: all 2s;
+}
+.social ul li.github{
+    margin-left: 30px;
+}
+.social ul li.facebook:hover {
+    background-color:#3d5999;
+    transform: translateX(90px);
+}
+.social ul li.github:hover {
+    background-color: gray;
+    transform: translateX(70px);
+}
+
+.social ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social ul li i {
+    text-align: center;
+    margin-left: 14px;
+    color: black;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    transform: rotate(0deg);
+}
+

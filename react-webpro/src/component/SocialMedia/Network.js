@@ -1,22 +1,28 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { falinkedin } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook} from '@fortawesome/free-brands-svg-icons'
+import './Network.css'
 
 const Network = () => (
-  <div>
-    <ul>
-        <li>
-             <a href="/"><i class="fa fa-linedin"></i></a>
-        </li>
-        <li>
-             <a href="/"><FontAwesomeIcon icon={faGithub} /></a>
-        </li>
-        <li>
-             <a href="/"><FontAwesomeIcon icon={faFacebook} /></a>
-        </li>
-    </ul>
-  </div>
+  <body>
+      <nav className="social">
+            
+            <ul>
+                <li className="github">
+                    <a href="/">GitHub
+                    <i ><FontAwesomeIcon icon={faGithub} fa-lg/></i></a>
+                </li>
+            </ul>
+            <ul>
+            <li className="facebook">
+                    <a href="/">Facebook
+                    <i><FontAwesomeIcon icon={faFacebook} /></i> </a>
+                </li>
+            </ul>
+            
+           
+        </nav>
+  </body>
 )
 export default Network;

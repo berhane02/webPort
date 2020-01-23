@@ -1,0 +1,52 @@
+.contact-us{
+    width: 550px;
+    background: rgb(7, 47, 59);
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.title h1 {
+    clear: #e0e0e7;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #ebeef1;
+}
+
+.form, 
+.form-items{
+    width: 100%;
+}
+
+.form-items .input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.form-items .input.message {
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    resize: none;
+}
+
+.btn {
+    background: #827ff2;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
