@@ -5,10 +5,10 @@
     position:fixed;
     top: 56px;
     left: 0;
-    width: 70%;
+    width: 50%;
     max-width: 400px;
     z-index: 200;
-    background: rgb(33, 98, 151);
+    background: rgb(3, 53, 94);
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
 }
@@ -19,20 +19,23 @@
     height: 100%;
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     justify-content: center;
+    margin-top: -40%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 .side-drawer li {
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 .side-drawer a{
-    color: #083358;
+    color: #afc5d8;
     text-decoration: none;;
     font-size: 1.2rem;
 }
 .side-drawer a:hover,
 .side-drawer a:active {
-    color: #fa923f;
+    color: #d67220;
 }
 @media (min-width: 769px){
     .side-drawer {

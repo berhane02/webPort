@@ -1,0 +1,23 @@
+body{
+    background:  rgb(7, 47, 59);
+    
+}
+.container {
+    display: grid;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+
+.container h1{
+    margin-top: 70px;
+    color: rgb(11, 194, 124);
+
+}
+.container div {
+    width: auto;
+    color: white;
+}
+
+

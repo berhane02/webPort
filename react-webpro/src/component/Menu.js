@@ -32,9 +32,6 @@ class Menu extends Component {
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
-        <main style={{ marginTop: '64px' }}>
-          <p>This is the page content!</p>
-        </main>
       </div>
     )
   }

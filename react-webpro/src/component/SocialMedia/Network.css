@@ -12,22 +12,57 @@
     display: block;
     margin: 5px;
     background-color: rgba (0,0,0,0.5);
-    width: 180px;
-    padding: 10px;
-    margin-right: 10px;
+    width: 190px;
+    padding: 15px;
+    margin-right: 100px;
     border-radius: 0 30px 30px 0;
     transition: all 2s;
+    transform: translateX(-20px);
+   
 }
-.social ul li.github{
-    margin-left: 30px;
+.social ul li.github a{
+    padding-left: 20px;
+}
+.social ul li.linkedIn a{
+    padding-left: 10px;
+}
+.social ul li.twitter a{
+    padding-left: 22px;
+}
+.social ul li.instgram a{
+    padding-left: 9px;
+    
 }
 .social ul li.facebook:hover {
-    background-color:#3d5999;
-    transform: translateX(90px);
+    background-color:#2d57b8;
+    transform: translateX(80px);
+   
 }
 .social ul li.github:hover {
     background-color: gray;
-    transform: translateX(70px);
+    transform: translateX(75px);
+    
+}
+.social ul li.linkedIn:hover {
+    background-color:#0E76a8;
+    transform: translateX(75px);
+   
+}
+.social ul li.instgram:hover {
+    background-color:#c540b3;
+    transform: translateX(75px);
+}
+.social ul li.twitter:hover {
+    background-color:#1b7ae7;
+    transform: translateX(75px);
+    
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+    margin-left: 15%;
+    border-radius: 5px;
 }
 
 .social ul li a {
@@ -38,14 +73,19 @@
 
 .social ul li i {
     text-align: center;
-    margin-left: 14px;
+    
     color: black;
     background-color: gray;
     padding: 10px;
-    border-radius: 50%;
-    width: 30px;
+  
+    width: 300px;
     height: 30px;
     font-size: 30px;
     transform: rotate(0deg);
 }
 
+@media (max-width: 414px){
+    .social {
+        display: none;
+    }
+}

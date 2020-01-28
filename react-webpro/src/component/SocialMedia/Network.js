@@ -1,7 +1,9 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faFacebook} from '@fortawesome/free-brands-svg-icons'
+import facebook from '../Image/facebook-icon.svg'
+import linkedIn from '../Image/linkedin-icon.svg'
+import twitter from '../Image/twitter-3.svg'
+import Instgram from '../Image/instagram-2-1.svg'
+import GitHub from '../Image/github-icon.svg'
 import './Network.css'
 
 const Network = () => (
@@ -11,13 +13,33 @@ const Network = () => (
             <ul>
                 <li className="github">
                     <a href="/">GitHub
-                    <i ><FontAwesomeIcon icon={faGithub} fa-lg/></i></a>
+                    <img src={GitHub} alt ="Y"/></a>
                 </li>
             </ul>
             <ul>
             <li className="facebook">
                     <a href="/">Facebook
-                    <i><FontAwesomeIcon icon={faFacebook} /></i> </a>
+                    <img src={facebook} alt ="Y"/></a>
+                </li>
+            </ul>
+            <ul>
+                <li className="linkedIn">
+                    <a href="/">LinkedIn
+                    <img src={linkedIn} alt ="Y"/>
+                    </a>
+                    
+                </li>
+            </ul>
+            <ul>
+                <li className="twitter">
+                    <a href="/">Twitter
+                    <img src={twitter} alt ="Y"/></a>
+                </li>
+            </ul>
+            <ul>
+                <li className="instgram">
+                    <a href="/">Instgram
+                    <img src={Instgram} alt ="Y"/></a>
                 </li>
             </ul>
             
