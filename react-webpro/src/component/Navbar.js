@@ -20,7 +20,7 @@ const Navbar = props =>(
                     <li> <NavLink to="/Exprince">0.2 Exprince</NavLink> </li>
                     <li> <NavLink to="/Work"> 0.3 Work </NavLink> </li>
                     <li> <NavLink to="/Contact"> 0.4 Contanct </NavLink></li>
-                    <button>Resume</button>
+                    <button className="button">Resume</button>
                 </ul>
             </div>
         </nav>

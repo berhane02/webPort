@@ -39,7 +39,9 @@
     font-size: 20px;
 }
 .toolbar_navigation-items li {
-    padding: 0 0.5rem;
+    padding: 0 0.7rem;
+    color: white;
+    font-size: x-large;
 }
 .toolbar_navigation-items a {
     color:white;
@@ -47,10 +49,24 @@
 }
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active{
-    color:fa923f;
+    color:#fa923f;
+}
+
+    
+.button {
+    
+    border: 60px;
+    
+    background: rgb(7, 47, 59);
+    color: aliceblue;
+    border-color: red;
+    font-size: x-large;
 }
 
 @media (max-width: 768px){
+    .toolbar{
+        width:100%;
+    }
     .toolbar_navigation-items {
         display: none;
     }

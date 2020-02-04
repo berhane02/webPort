@@ -13,9 +13,9 @@ import './contact.css'
 class Contact extends Component{
     render(){
         return(
-            <div className="contact-us">
+            <div className="contact-us" id="contact">
                 <div className="title">
-                     <h1> Contact us</h1>
+                     <h1> Get In Touch</h1>
                 </div>
                  <div className="form">
                     <div className="form-items">

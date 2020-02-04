@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Exprince extends Component{
     render(){
         return (
-            <div>
+            <section className="Exprince" id="exprince">
                <div>
                     Toxic comment classification
                </div>
@@ -23,7 +23,7 @@ class Exprince extends Component{
                         AEV
                    </div>
                   
-            </div>
+            </section>
    
         )
     }
