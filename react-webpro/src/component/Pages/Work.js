@@ -7,42 +7,36 @@ class Work extends Component {
           
             <section className="container" id="work">
                 <div id="left">
-                    <p> Work exprince</p>
+                    <h1> Work exprince</h1>
                 </div>
-                <div id="right">
-                    <ul className="work">
-                        <li className="A">
-                            <img src= {Logo} alt="Y"/>
-                            <span>
-                                <strong> FrondEnd Developer </strong>
+                <div className = "history">
+                   
+                        <div className= "list">
+                            
+                                
                                 <p>     Developed dynamic and interactive website for Online Education and Teaching Courses
                                         Developed the backend of an application using Python Django and MySQL 
                                         Fixed bugs from existing website and implemented enhancements that significantly improve web functionality and speed. 
                                 </p>
-                            </span>
-                        </li>
-                        <li className="A">
-                            <img src= {Logo} alt="Y"/>
-                            <span>
-                                <strong> FrondEnd Developer </strong>
+                        </div>
+                        <div className= "list"> 
                                 <p>     Developed dynamic and interactive website for Online Education and Teaching Courses
                                         Developed the backend of an application using Python Django and MySQL 
                                         Fixed bugs from existing website and implemented enhancements that significantly improve web functionality and speed. 
                                 </p>
-                            </span>
-                        </li>
-                        <li className="A">
-                            <img src= {Logo} alt="Y"/>
-                            <span>
-                                <strong> FrondEnd Developer </strong>
+                          
+                        </div>
+                        <div className= "list">
+                          
+                                
                                 <p>     Developed dynamic and interactive website for Online Education and Teaching Courses
                                         Developed the backend of an application using Python Django and MySQL 
                                         Fixed bugs from existing website and implemented enhancements that significantly improve web functionality and speed. 
                                 </p>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
+                           
+                        </div>
+                    </div>
+             
             </section>
                
            
