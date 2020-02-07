@@ -84,6 +84,8 @@ a img {
     transform: rotate(0deg);
 }
 
+
+
 @media (max-width: 414px){
     .social {
         display: none;
